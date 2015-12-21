@@ -29,7 +29,7 @@ Lita.configure do |config|
   config.handlers.google_images.google_cse_key = ENV["GOOGLE_CSE_KEY"]
 
   # redis config
-  config.redis[:url] = ENV["REDISTODO_URL"]
+  config.redis[:url] = ENV["REDISTOGO_URL"]
   config.http.port = ENV["PORT"]
 
   ## Example: Set options for the chosen adapter.
