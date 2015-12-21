@@ -17,6 +17,7 @@ GEM
     equalizer (0.0.11)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
+    gems (0.8.3)
     gene_pool (1.4.1)
       thread_safe
     httmultiparty (0.3.16)
@@ -55,6 +56,11 @@ GEM
       curb (>= 0.8)
       lita (>= 4.4)
       nokogiri (>= 1.6)
+    lita-eval (0.1.0)
+      lita (~> 4.3)
+    lita-gems (1.1.0)
+      gems (>= 0.8.0)
+      lita (>= 2.6)
     lita-giphy (1.0.3)
       lita (>= 2.0)
     lita-google-images (3.0.0)
@@ -113,6 +119,8 @@ DEPENDENCIES
   lita-against-humanity
   lita-ai
   lita-devops-reactions
+  lita-eval
+  lita-gems
   lita-giphy
   lita-google-images (~> 3.0.0)
   lita-karma
