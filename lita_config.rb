@@ -28,6 +28,10 @@ Lita.configure do |config|
   config.handlers.google_images.google_cse_id = ENV["GOOGLE_CSE_ID"]
   config.handlers.google_images.google_cse_key = ENV["GOOGLE_CSE_KEY"]
 
+  # redis config
+  config.redis[:url] = ENV["REDISTODO_URL"]
+  config.http.port = ENV["PORT"]
+
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
   # config.adapter.password = "secret"
@@ -36,7 +40,7 @@ Lita.configure do |config|
   # config.redis.host = "127.0.0.1"
   # config.redis.port = 1234
 
-  config.redis = {host: "127.0.0.1", port: 6379}
+  # config.redis = {host: "127.0.0.1", port: 6379}
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
