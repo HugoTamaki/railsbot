@@ -30,7 +30,7 @@ Lita.configure do |config|
 
   # redis config
   config.redis[:url] = ENV["REDISTODO_URL"]
-  config.http.port = ENV["PORT"]
+  config.http.port = 6379
 
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
