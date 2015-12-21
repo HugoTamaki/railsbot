@@ -56,8 +56,6 @@ GEM
       curb (>= 0.8)
       lita (>= 4.4)
       nokogiri (>= 1.6)
-    lita-eval (0.1.0)
-      lita (~> 4.3)
     lita-gems (1.1.0)
       gems (>= 0.8.0)
       lita (>= 2.6)
@@ -119,7 +117,6 @@ DEPENDENCIES
   lita-against-humanity
   lita-ai
   lita-devops-reactions
-  lita-eval
   lita-gems
   lita-giphy
   lita-google-images (~> 3.0.0)
