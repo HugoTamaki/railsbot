@@ -1,6 +1,6 @@
 Lita.configure do |config|
   # The name your robot will use.
-  config.robot.name = "@railsbot"
+  config.robot.name = "railsbot"
 
   # The locale code for the language to use.
   # config.robot.locale = :en
