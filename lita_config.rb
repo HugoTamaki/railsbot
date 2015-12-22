@@ -32,8 +32,8 @@ Lita.configure do |config|
   config.redis[:url] = ENV["REDISTOGO_URL"]
   config.http.port = ENV["PORT"]
 
-  config.handlers.keepalive.url = ENV["KEEPALIVE_URL"]
-  config.handlers.keepalive.minutes = 5
+  # config.handlers.keepalive.url = ENV["KEEPALIVE_URL"]
+  # config.handlers.keepalive.minutes = 5
 
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
