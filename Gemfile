@@ -10,10 +10,11 @@ gem "lita-telegram"
 
 # Add handlers to give Lita new functionality.
 # For example:
+# gem "lita-google-images", "~> 3.0.0"
+# gem "lita-karma"
+# gem "lita-against-humanity"
+# gem "lita-devops-reactions"
+# gem "lita-ai"
+
 gem "lita-giphy"
-gem "lita-google-images", "~> 3.0.0"
-gem "lita-karma"
-gem "lita-against-humanity"
-gem "lita-devops-reactions"
-gem "lita-ai"
 gem "lita-gems"
