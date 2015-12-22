@@ -24,9 +24,9 @@ Lita.configure do |config|
   config.handlers.giphy.api_key = ENV["GIPHY_API_KEY"]
   config.handlers.giphy.rating = 'g'
 
-#  config.handlers.google_images.safe_search = :medium
-#  config.handlers.google_images.google_cse_id = ENV["GOOGLE_CSE_ID"]
-#  config.handlers.google_images.google_cse_key = ENV["GOOGLE_CSE_KEY"]
+  config.handlers.google_images.safe_search = :medium
+  config.handlers.google_images.google_cse_id = ENV["GOOGLE_CSE_ID"]
+  config.handlers.google_images.google_cse_key = ENV["GOOGLE_CSE_KEY"]
 
   # redis config
   config.redis[:url] = ENV["REDISTOGO_URL"]

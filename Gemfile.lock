@@ -45,6 +45,8 @@ GEM
       lita (>= 2.6)
     lita-giphy (1.0.3)
       lita (>= 2.0)
+    lita-google-images (3.0.0)
+      lita (>= 4.0)
     lita-telegram (0.1.0)
       lita (>= 4.5)
       telegram-bot-ruby
@@ -84,6 +86,7 @@ DEPENDENCIES
   lita
   lita-gems
   lita-giphy
+  lita-google-images (~> 3.0.0)
   lita-telegram
 
 BUNDLED WITH
