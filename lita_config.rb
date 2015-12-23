@@ -33,7 +33,7 @@ Lita.configure do |config|
   config.http.port = ENV["PORT"]
 
   config.handlers.keepalive.url = ENV["KEEPALIVE_URL"]
-  config.handlers.keepalive.minutes = 300
+  # config.handlers.keepalive.minutes = 300
 
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
