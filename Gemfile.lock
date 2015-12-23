@@ -67,6 +67,8 @@ GEM
       lita (>= 4.0)
     lita-keepalive (0.0.2)
       lita (~> 4.0)
+    lita-spotify (0.1.2)
+      lita (>= 4.4)
     lita-telegram (0.1.0)
       lita (>= 4.5)
       telegram-bot-ruby
@@ -124,6 +126,7 @@ DEPENDENCIES
   lita-google-images (~> 3.0.0)
   lita-karma
   lita-keepalive
+  lita-spotify
   lita-telegram
 
 BUNDLED WITH
