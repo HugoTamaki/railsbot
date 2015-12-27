@@ -35,6 +35,8 @@ Lita.configure do |config|
   config.handlers.keepalive.url = ENV["KEEPALIVE_URL"]
   # config.handlers.keepalive.minutes = 300
 
+  config.handlers.youtube_me.api_key = ENV["GOOGLE_CSE_KEY"]
+
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
   # config.adapter.password = "secret"
