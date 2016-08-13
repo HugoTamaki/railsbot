@@ -68,6 +68,8 @@ GEM
       lita (>= 4.0)
     lita-keepalive (0.0.2)
       lita (~> 4.0)
+    lita-poll (1.0.2)
+      lita (>= 4.2.1)
     lita-spotify (0.1.2)
       lita (>= 4.4)
     lita-telegram (0.1.0)
@@ -130,9 +132,10 @@ DEPENDENCIES
   lita-google-images (~> 3.0.0)
   lita-karma
   lita-keepalive
+  lita-poll
   lita-spotify
   lita-telegram
   lita-youtube-me
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
